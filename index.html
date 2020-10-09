@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/main.css">
+        <title>Memory</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <div>
+
+                    <h2>
+                        Session Top 5:
+                    </h2>
+
+                    <ul class="scoreboard">
+                        <!-- scoreboard will be generated here (WIP) -->
+                    </ul>
+                    
+                </div>
+
+                <div>
+                    <h2>
+                        Attempts made:
+                    </h2>
+                    <h2 class="currentscore">
+                        0
+                    </h2>
+                </div>
+
+            </header>
+            <div class="cardContainer">
+
+                <!-- cards will go here -->
+                
+            </div>
+        </div>
+    </body>
+    </html>
+    
+    <template id="cardTemplate">
+        <div class="card">
+            <img class="cardback" src="img/back.png" alt="">
+            <img class="cardfront" src="" alt="">
+        </div>
+    </template>
+
+    <template id="leaderBoardTemplate">
+
+        <li class="highScore"></li>
+
+    </template>
+
+    <script src="JS/main.js"></script>
